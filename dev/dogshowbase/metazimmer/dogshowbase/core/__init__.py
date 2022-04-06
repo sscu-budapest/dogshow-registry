@@ -81,6 +81,7 @@ class AddressType(dz.CompositeTypeBase):
     city = str
     street_address = str
     building = BuildingInfoType
+    zip = str
 
 
 class ResultType(dz.CompositeTypeBase):

@@ -6,6 +6,8 @@ AddressType:
     dtype: str
   - prefix: building
     dtype: BuildingInfoType
+  - name: zip
+    dtype: str
 BuildingInfoType:
   features:
   - name: floor
