@@ -1,0 +1,9 @@
+[project]
+name = "dogracebase"
+version = "0.0"
+description = "zimmer project"
+requires-python = ">=3.8"
+dependencies = [ "dogshowbase",]
+
+[tool.flit.module]
+name = "metazimmer"
