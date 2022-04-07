@@ -1,0 +1,10 @@
+sex_match:
+  subject_of_records: SexMatch
+  features:
+  - name: count
+    dtype: int
+  index:
+  - name: sex_1
+    dtype: str
+  - name: sex_2
+    dtype: str

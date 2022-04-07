@@ -1,0 +1,16 @@
+size_count:
+  subject_of_records: dogracebase:core:DogSize
+  features:
+  - name: elem_count
+    dtype: int
+  index:
+  - prefix: size
+    table: dogracebase:core:dog_size
+status_count:
+  subject_of_records: success:Status
+  features:
+  - name: elem_count
+    dtype: int
+  index:
+  - prefix: status
+    table: success:status

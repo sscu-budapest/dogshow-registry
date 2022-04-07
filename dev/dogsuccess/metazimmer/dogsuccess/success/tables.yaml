@@ -1,0 +1,16 @@
+sized_dog:
+  subject_of_records: dogshowbase:core:Dog
+  features:
+  - prefix: size
+    table: dogracebase:core:dog_size
+  index:
+  - name: dog_id
+    dtype: str
+status:
+  subject_of_records: Status
+  features:
+  - prefix: wins
+    dtype: dogracebase:core:IntLimitType
+  index:
+  - name: status_name
+    dtype: str
