@@ -1,0 +1,5 @@
+dog_success:
+  subject_of_records: dogshowbase:core:Dog
+  features:
+  - name: thing
+    dtype: int
